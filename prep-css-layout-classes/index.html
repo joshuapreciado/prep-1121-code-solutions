@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Layout Classes</title>
+    <link rel="stylesheet" href="reset.css" />
+    <style>
+      /* stylelint-disable block-no-empty */
+      body {
+        font-family: sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .container {
+        max-width: 992px;
+        margin: auto;
+      }
+
+      .row {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .column {
+        flex-basis: calc(100% / 3);
+        padding-left: 8px;
+        padding-right: 8px;
+        margin: auto;
+      }
+
+      img {
+        width: 100%;
+      }
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Complete the HTML here -->
+    <h2>Indiana Jones</h2>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <img src="images/raiders.jpg" alt="Raiders" />
+          <h3>Raiders Of The Lost Ark</h3>
+          <p>
+            Lucas conceived Raiders of the Lost ark in the early 1970s. Seeking
+            to modernize the films of the early 20-th century.
+          </p>
+        </div>
+        <div class="column">
+          <img src="images/temple.jpg" alt="Temple Of Doom" />
+          <h3>Temple Of Doom</h3>
+          <p>
+            The film was released to financial success but initial reviews were
+            mixed. criticizing it's darker elements and violence.
+          </p>
+        </div>
+        <div class="column">
+          <img src="images/crusade.jpg" alt="crusade" />
+          <h3>The Last Crusade</h3>
+          <p>
+            This film was decided to take a less dark route compared to the past
+            films and create a film which would not offend most.They went
+            through various scripts before they finally decided on one for the
+            film.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
