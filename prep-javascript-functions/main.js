@@ -15,13 +15,19 @@ console.log('', test);
 function getGreeting(name) {
   return 'Hello ' + name + '!';
 }
-var test1 = getGreeting();
-console.log('', test1);
+var test1 = getGreeting('Josh');
+console.log('getGreetingResult', test1);
+
+function addAndMultiplyBy5(num1, num2) {
+  return num1 + num2 * 5;
+}
+var Multiplyby5 = addAndMultiplyBy5();
+console.log('', Multiplyby5);
 
 function multiplyAndDivideBy5(num1, num2) {
   return num1 * num2 / 5;
 }
-var test2 = multiplyAndDivideBy5();
+var test2 = multiplyAndDivideBy5(5);
 console.log('', test2);
 
 function subtractTwoNumbers(num1, num2) {
@@ -33,7 +39,7 @@ console.log('', test3);
 function getCircleCircumference(radius) {
   return Math.PI * radius;
 }
-var test4 = getCircleCircumference();
+var test4 = getCircleCircumference(Math.PI);
 console.log('', test4);
 
 function getFullName(firstName, lastName) {
