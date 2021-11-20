@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Conditionals</title>
+  </head>
+
+  <body>
+    <script>
+      // Your code here
+      var age = 19;
+      console.log('', age);
+      if (age) {
+        age < 18;
+        console.log('An adult', age);
+      } else {
+        age > 18;
+        console.log('A child', age);
+      }
+      var student1Score = 99;
+      if (student1Score) {
+        student1Score <= 70;
+        console.log('Congrats you received a passing grade!', student1Score);
+      } else {
+        student1Score >= 70;
+        console.log('Oh no you failed!', student1Score);
+      }
+      var student2Score = 57;
+      if (student2Score) {
+        student2Score < 60;
+        console.log('F', student2Score);
+      } else if (student2Score < 70) {
+        console.log('D', student2Score);
+      } else if (student2Score < 80) {
+        console.log('C', student2Score);
+      } else if (student2Score < 90) {
+        console.log('B', student2Score);
+      } else if (student2Score < 100) {
+        console.log('A', student2Score);
+      } else {
+        student2Score > 100;
+        console.log('A++', student2Score);
+      }
+      var season = 'summer';
+      if (season) {
+        season === 'summer';
+        console.log("it's hot today");
+      } else if (season === 'spring') {
+        console.log('the flowers are blooming');
+      } else if (season === 'autumn') {
+        console.log('the leaves are changing colors', season);
+      } else if (season === 'winter') {
+        console.log("it's cold today", season);
+      } else {
+        season != 'pls';
+        console.log('please enter a valid season', season);
+      }
+      var dayOfTheWeek = sunday;
+      console.log('', dayOfTheWeek);
+      if (dayOfTheWeek) {
+        dayOfTheWeek === sunday;
+        console.log('Have a good weekend!', dayOfTheWeek);
+      } else {
+        dayOfTheWeek != weekday;
+        console.log('its a weekday!', dayOfTheWeek);
+      }
+    </script>
+  </body>
+</html>
