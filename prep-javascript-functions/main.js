@@ -19,9 +19,9 @@ var test1 = getGreeting('Josh');
 console.log('getGreetingResult', test1);
 
 function addAndMultiplyBy5(num1, num2) {
-  return num1 + num2 * 5;
+  return (num1 + num2) * 5;
 }
-var Multiplyby5 = addAndMultiplyBy5();
+var Multiplyby5 = addAndMultiplyBy5(5);
 console.log('', Multiplyby5);
 
 function multiplyAndDivideBy5(num1, num2) {
