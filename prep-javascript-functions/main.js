@@ -12,7 +12,7 @@ function convertHoursToMinutes(hours) {
 var test = convertHoursToMinutes();
 console.log('', test);
 
-function getGreeting(Josh) {
+function getGreeting(name) {
   return 'Hello ' + name + '!';
 }
 var test1 = getGreeting('Josh');
@@ -34,10 +34,10 @@ function subtractTwoNumbers(num1, num2) {
   return num1 - num2;
 }
 var test3 = subtractTwoNumbers();
-console.log('', test3);
+console.log('subtractTwoNumbers', test3);
 
 function getCircleCircumference(radius) {
-  return Math.PI * radius;
+  return 2 * Math.PI * radius;
 }
 var test4 = getCircleCircumference(7);
 console.log('getCircleCircumferenceResult:', test4);
@@ -46,7 +46,7 @@ function getFullName(firstName, lastName) {
   return firstName + ' ' + lastName;
 }
 var test5 = getFullName();
-console.log('', test5);
+console.log('', '', test5);
 function cube(number) {
   return number * number * number;
 }
