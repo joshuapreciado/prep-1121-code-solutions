@@ -1,0 +1,14 @@
+// create your loops here.
+for (var i = 0; i < 10; i++) {
+  console.log(i);
+}
+
+var x = 0;
+
+for (; x < 20; x += 2) {
+  console.log(x);
+}
+
+for (var t = 100; t > 0; t--) {
+  console.log('Time till explosion' + t + '!');
+}
